@@ -1,0 +1,6 @@
+#ifndef ENCRYPT_EXAMPLE_LIBRARY_H
+#define ENCRYPT_EXAMPLE_LIBRARY_H
+
+void hello();
+
+#endif //ENCRYPT_EXAMPLE_LIBRARY_H
