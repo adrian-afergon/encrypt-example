@@ -4,11 +4,10 @@
 #include <string>
 #include <openssl/aes.h>
 #include <openssl/rand.h>
-#include <openssl/evp.h>
 
 // Key and IV lengths for AES-256 encryption
 const int AES_KEY_LENGTH = 32; // 256 bits
-const int AES_BLOCK_SIZE = 16; // 128 bits
+//const int AES_BLOCK_SIZE = 16; // 128 bits
 
 std::string encrypt(const std::string &plaintext, const std::string &key) {
     // Generate a random IV (Initialization Vector)
